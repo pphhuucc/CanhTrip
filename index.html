@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CANHTRIP - Lịch trình Quảng Châu 21–23/05/2026</title>
+  <style>
+    :root{
+      --ink:#102033; --muted:#61728a; --paper:#fffdf7; --card:rgba(255,255,255,.82);
+      --red:#b91c1c; --gold:#f5b642; --jade:#078777; --night:#071326;
+      --blue:#123a6d; --line:rgba(30,41,59,.13); --shadow:0 24px 70px rgba(15,23,42,.22);
+      --radius:30px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+      color:var(--ink); line-height:1.6; overflow-x:hidden;
+      background:#f6efe2;
+    }
+    body:before{
+      content:""; position:fixed; inset:0; z-index:-3;
+      background:
+        linear-gradient(180deg, rgba(15,22,38,.45) 0%, rgba(74,21,27,.2) 48%, rgba(246,239,226,.95) 82%),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920' preserveAspectRatio='xMaxYMin slice'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%230f1626'/%3E%3Cstop offset='50%25' stop-color='%234a151b'/%3E%3Cstop offset='100%25' stop-color='%23d4b08c'/%3E%3C/linearGradient%3E%3ClinearGradient id='mnt1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%231a0a0d'/%3E%3Cstop offset='100%25' stop-color='%2355151c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1080' height='1920' fill='url(%23sky)'/%3E%3Ccircle cx='850' cy='450' r='180' fill='%23e13a28' opacity='.9'/%3E%3Ccircle cx='850' cy='450' r='200' fill='none' stroke='%23e13a28' stroke-width='2' opacity='.5'/%3E%3Cpath d='M200 350 Q 250 300 350 350 Q 450 400 400 450' stroke='%23e13a28' fill='none' stroke-width='4' opacity='.4'/%3E%3Cpath d='M600 250 Q 650 200 750 250' stroke='%23d4b08c' fill='none' stroke-width='3' opacity='.3'/%3E%3Cpath d='M-100 1100 Q 0 950 100 1150 T 300 1000 T 500 1200 T 700 900 T 900 1150 T 1100 1050 L 1200 1920 L -100 1920 Z' fill='%233a1015' opacity='.6'/%3E%3Cpath d='M-100 1250 Q 150 1050 350 1300 T 700 1100 T 950 1350 T 1200 1200 L 1200 1920 L -100 1920 Z' fill='%231a0a0d' opacity='.8'/%3E%3Cpath d='M1150 1920 L1150 1400 Q 950 1100 800 1450 T 550 1920 Z' fill='url(%23mnt1)'/%3E%3Cg transform='translate(750, 1150) scale(1.4)' fill='%23000'%3E%3Cpath d='M20 100 h60 v-15 h-60z'/%3E%3Cpath d='M-5 85 Q 50 60 105 85 Q 85 75 80 70 h-60 Q 15 75 -5 85'/%3E%3Cpath d='M15 70 h70 l-10 -25 h-50z'/%3E%3Cpath d='M0 45 Q 50 20 100 45 Q 80 35 75 30 h-50 Q 20 35 0 45'/%3E%3Cpath d='M25 30 h50 l-10 -25 h-30z'/%3E%3Cpath d='M10 5 Q 50 -15 90 5 Q 75 -5 70 -10 h-40 Q 25 -5 10 5'/%3E%3Cpath d='M47 -10 h6 l-3 -25z'/%3E%3C/g%3E%3Cg transform='translate(1080, -50) scale(-1, 1)' fill='%230f1626'%3E%3Cpath d='M0 100 Q 200 150 400 120 Q 550 100 700 200' fill='none' stroke='%230f1626' stroke-width='18' stroke-linecap='round'/%3E%3Cpath d='M200 140 Q 300 250 450 250' fill='none' stroke='%230f1626' stroke-width='10' stroke-linecap='round'/%3E%3Ccircle cx='350' cy='120' r='30'/%3E%3Ccircle cx='400' cy='100' r='35'/%3E%3Ccircle cx='450' cy='130' r='25'/%3E%3Ccircle cx='550' cy='140' r='20'/%3E%3Ccircle cx='600' cy='180' r='25'/%3E%3Ccircle cx='650' cy='200' r='20'/%3E%3Ccircle cx='280' cy='200' r='25'/%3E%3Ccircle cx='350' cy='240' r='25'/%3E%3Ccircle cx='420' cy='250' r='20'/%3E%3C/g%3E%3Cg fill='none' stroke='%23000' stroke-width='2'%3E%3Cpath d='M750 300 Q 770 280 790 300 Q 770 290 750 300'/%3E%3Cpath d='M730 320 Q 745 305 760 320 Q 745 310 730 320'/%3E%3C/g%3E%3C/svg%3E") center/cover no-repeat;
+      transform:scale(1.02);
+    }
+    body:after{content:""; position:fixed; inset:0; z-index:-2; pointer-events:none; opacity:.42;
+      background-image:radial-gradient(rgba(255,255,255,.45) 1px, transparent 1px); background-size:28px 28px;
+      mask-image:linear-gradient(180deg,#000,transparent 70%);
+    }
+    .cloud{position:fixed; z-index:-1; filter:blur(.1px); opacity:.28; animation:float 18s ease-in-out infinite alternate}
+    .cloud.c1{left:-80px; top:110px}.cloud.c2{right:-120px; top:330px; animation-duration:22s}.cloud.c3{left:15%; bottom:120px; animation-duration:25s}
+    @keyframes float{from{transform:translateX(0)}to{transform:translateX(80px)}}
+    @keyframes fly{0%{transform:translateX(0) translateY(0) rotate(15deg)} 50%{transform:translateX(60vw) translateY(-80px) rotate(5deg)} 100%{transform:translateX(120vw) translateY(-20px) rotate(15deg)}}
+    .plane{position:fixed; top:25%; left:-100px; z-index:-1; font-size:42px; opacity:0.8; animation:fly 25s linear infinite; filter: drop-shadow(0 10px 10px rgba(0,0,0,0.2)); pointer-events:none}
+    .wrap{width:min(1000px, 100%); margin:auto}
+    .app-container{display:flex; height:100vh; overflow:hidden}
+    .sidebar{width:400px; flex-shrink:0; height:100vh; overflow-y:auto; overflow-x:hidden; display:flex; flex-direction:column; border-right:1px solid rgba(255,255,255,.2); position:relative; z-index:10; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.15)); backdrop-filter:blur(8px)}
+    .sidebar::-webkit-scrollbar{width:6px} .sidebar::-webkit-scrollbar-thumb{background:rgba(0,0,0,.15); border-radius:10px}
+    .main-content{flex:1; height:100vh; overflow-y:auto; overflow-x:hidden; padding:0 30px; scroll-behavior:smooth}
+    .main-content::-webkit-scrollbar{width:8px} .main-content::-webkit-scrollbar-thumb{background:rgba(185,28,28,.4); border-radius:10px}
+    .reveal{opacity:0; transform:translateY(28px); transition:opacity .8s ease, transform .8s ease}.reveal.show{opacity:1; transform:none}
+    .hero{padding:40px 25px 20px; display:flex; flex-direction:column; gap:25px; color:#fff}
+    .hero-grid{display:flex; flex-direction:column; gap:28px}
+    .seal{display:inline-flex; align-items:center; gap:10px; padding:10px 15px; border-radius:999px; background:rgba(255,255,255,.13); border:1px solid rgba(255,255,255,.25); backdrop-filter:blur(16px); font-weight:850; box-shadow:0 12px 30px rgba(0,0,0,.12)}
+    .seal b{display:grid; place-items:center; width:30px; height:30px; border-radius:50%; background:linear-gradient(135deg,var(--gold),#fff1a8); color:#7f1d1d}
+    h1{font-size:clamp(42px,7vw,92px); line-height:.92; margin:22px 0 18px; letter-spacing:-3px; text-wrap:balance; text-shadow:0 12px 44px rgba(0,0,0,.28)}
+    .lead{font-size:clamp(18px,2.1vw,24px); max-width:750px; color:rgba(255,255,255,.88); margin:0 0 28px}
+    @keyframes pulseBtn{0%{box-shadow:0 16px 38px rgba(185,28,28,.3)}50%{box-shadow:0 16px 38px rgba(185,28,28,.5), 0 0 25px rgba(225,29,72,.6); transform:scale(1.02)}100%{box-shadow:0 16px 38px rgba(185,28,28,.3)}}
+    .hero-actions{display:flex; gap:12px; flex-wrap:wrap}.btn{border:0; cursor:pointer; text-decoration:none; color:#fff; font-weight:900; border-radius:18px; padding:14px 22px; background:linear-gradient(135deg,var(--red),#e11d48); box-shadow:0 16px 38px rgba(185,28,28,.3); transition:all .3s ease; animation:pulseBtn 2.5s infinite}.btn:hover{animation:none; transform:translateY(-5px) scale(1.05); box-shadow:0 25px 55px rgba(185,28,28,.45)}
+    .btn.ghost{background:rgba(255,255,255,.13); border:1px solid rgba(255,255,255,.28); box-shadow:none; backdrop-filter:blur(14px); animation:none}.btn.ghost:hover{background:rgba(255,255,255,.25); transform:translateY(-5px)}
+    .travel-card{border-radius:34px; overflow:hidden; background:rgba(255,255,255,.85); backdrop-filter:blur(20px); color:var(--ink); box-shadow:var(--shadow); border:1px solid rgba(255,255,255,.6); transform:rotate(1deg); transition:all .5s cubic-bezier(0.34, 1.56, 0.64, 1)}.travel-card:hover{transform:rotate(0deg) translateY(-12px) scale(1.03); box-shadow:0 40px 80px rgba(0,0,0,.35)}
+    .postcard{height:290px; background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.35)), url('/mnt/data/image.png') center/cover no-repeat; position:relative}
+    .postcard:before{content:"广州"; position:absolute; right:20px; bottom:8px; font-size:86px; font-family:serif; font-weight:900; color:rgba(255,255,255,.78); letter-spacing:-8px}.postcard:after{content:"CANTON • 2 ĐÊM"; position:absolute; left:18px; bottom:22px; color:white; font-weight:950; letter-spacing:2px}
+    .hotel-info{padding:22px}.hotel-info h2{margin:0 0 8px; font-size:26px}.chips{display:flex; gap:8px; flex-wrap:wrap; margin-top:14px}.chip{padding:8px 11px; border-radius:999px; background:#fff7e0; border:1px solid rgba(245,182,66,.35); color:#7a3410; font-weight:850; font-size:13px}
+    .nav{margin-top:auto; padding:20px 25px; display:flex; flex-direction:column; gap:8px}
+    .nav-inner{display:flex; flex-direction:column; gap:10px}.nav a{color:#172554; text-decoration:none; font-weight:950; padding:12px 18px; border-radius:16px; background:rgba(255,255,255,.65); border:1px solid rgba(255,255,255,.8); transition:all .3s ease; display:flex; align-items:center; backdrop-filter:blur(10px)}.nav a:hover{background:linear-gradient(135deg,var(--red),#e11d48); color:white; transform:translateX(5px); box-shadow:0 8px 20px rgba(185,28,28,.25)}
+    .nav a.brand{font-size:26px; font-weight:900; background:none; border:none; color:var(--red); padding:0 0 15px 0; letter-spacing:1px; text-transform:uppercase; font-style:italic; display:flex; align-items:center; gap:8px; box-shadow:none; justify-content:center}.nav a.brand:hover{background:none; color:var(--gold); transform:scale(1.05); box-shadow:none}
+    section{padding:42px 0}.title-row{display:flex; justify-content:space-between; align-items:end; gap:18px; margin-bottom:18px}.title-row h2{font-size:clamp(30px,4vw,54px); margin:0; letter-spacing:-1.6px}.title-row p{max-width:560px; margin:0; color:#475569}
+    .glass{background:rgba(255,253,247,.78); border:1px solid rgba(255,255,255,.64); backdrop-filter:blur(18px); box-shadow:0 22px 55px rgba(15,23,42,.12); border-radius:var(--radius)}
+    .overview{display:grid; grid-template-columns:repeat(3,1fr); gap:16px}.overview article{padding:24px; transition:all .4s cubic-bezier(0.34, 1.56, 0.64, 1)}.overview article:hover{transform:translateY(-10px) scale(1.02); box-shadow:0 25px 50px rgba(15,23,42,.15); background:rgba(255,255,255,.95)}.icon{font-size:36px; width:64px; height:64px; display:grid; place-items:center; border-radius:22px; background:linear-gradient(135deg,#fff7cf,#fee2e2); margin-bottom:14px; transition:transform .3s ease}.overview article:hover .icon{transform:scale(1.1) rotate(5deg)}.overview h3{font-size:21px; margin:0 0 7px}.overview p{color:#64748b; margin:0}
+    .day{overflow:hidden; margin-bottom:28px}.day-head{position:relative; padding:28px; color:white; background:linear-gradient(135deg,rgba(185,28,28,.96),rgba(7,135,119,.92)), var(--bg,none); background-size:cover; background-position:center; display:flex; justify-content:space-between; gap:18px; align-items:center}.day-head:after{content:""; position:absolute; inset:0; background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='80' viewBox='0 0 160 80'%3E%3Cpath d='M0 45 Q40 5 80 45 T160 45' fill='none' stroke='white' stroke-opacity='.2' stroke-width='3'/%3E%3C/svg%3E") repeat; opacity:.55}.day-head>*{position:relative}.day-head h2{margin:0; font-size:32px; letter-spacing:-.6px}.day-head span{background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.24); padding:10px 14px; border-radius:999px; font-weight:950; white-space:nowrap}.timeline{padding:20px 15px 30px 30px; position:relative}
+    .timeline::before{content:""; position:absolute; left:30px; top:35px; bottom:30px; transform:translateX(-50%); width:2px; background:linear-gradient(to bottom, rgba(185,28,28,0.5), rgba(185,28,28,0.1)); z-index:1}
+    .item{display:grid; grid-template-columns:110px 1fr; gap:20px; padding:25px 0 25px 30px; position:relative; transition:all .4s cubic-bezier(0.4, 0, 0.2, 1)}
+    .item::before{content:""; position:absolute; left:0; top:29px; width:12px; height:12px; transform:translateX(-50%); border-radius:50%; background:#fff; border:3px solid var(--red); z-index:2; transition:all .4s; box-shadow:0 0 0 4px rgba(255,255,255,0.8)}
+    .item.active{transform:translateX(5px)}
+    .item.active::before{background:var(--gold); border-color:var(--red); transform:scale(1.4); box-shadow:0 0 15px var(--gold)}
+    .item.past::before{background:#cbd5e1; border-color:#94a3b8}
+    .item.past{opacity:0.6; filter:grayscale(0.3)}
+    .item.active .content{background:rgba(255,255,255,0.95); padding:20px; border-radius:18px; border-left:4px solid var(--red); box-shadow:0 12px 35px rgba(185,28,28,0.12)}
+    .time{font-weight:950; color:#991b1b; font-size:18px; transition:color 0.3s}.item.active .time{color:var(--red); font-size:19px; display:flex; flex-direction:column; gap:5px}
+    .item.active .time::after{content:"📍 Đang diễn ra"; font-size:11px; background:var(--red); color:#fff; padding:3px 8px; border-radius:999px; width:max-content; font-weight:800; animation:pulseBtn 2s infinite}
+    .content{transition:all 0.3s; background:rgba(255,255,255,0.35); padding:18px 22px; border-radius:18px; border:1px solid rgba(255,255,255,0.7)}.content h3{margin:0 0 7px; font-size:22px}.content p{margin:0; color:#4b5d73}.tagrow{display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; align-items:center}.tag{font-size:12px; letter-spacing:.2px; font-weight:950; padding:6px 10px; border-radius:999px; background:#fff7ed; color:#9a3412; border:none; height:auto; min-height:0; box-shadow:none; overflow:visible}.tag.t-photo{background:#fdf2f8;color:#9d174d}.tag.t-move{background:#ecfdf5;color:#047857}.tag.t-food{background:#fef3c7;color:#92400e}.tag.t-must{background:#fee2e2;color:#991b1b}
+    .gallery{display:grid; grid-template-columns:1.2fr .8fr .8fr; gap:14px}.photo{min-height:230px; border-radius:26px; overflow:hidden; position:relative; box-shadow:0 18px 44px rgba(15,23,42,.12); background-size:cover; background-position:center; transition:.45s}.photo:hover{transform:scale(1.025)}.photo.big{grid-row:span 2; min-height:478px}.photo:after{content:attr(data-title); position:absolute; left:16px; bottom:16px; color:white; font-weight:950; font-size:20px; text-shadow:0 3px 18px rgba(0,0,0,.6); padding:8px 12px; border-radius:999px; background:rgba(0,0,0,.22); backdrop-filter:blur(10px)}
+    .p1{background-image:linear-gradient(180deg,transparent,rgba(0,0,0,.38)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 900'%3E%3Crect width='900' height='900' fill='%230b1b36'/%3E%3Ccircle cx='720' cy='140' r='86' fill='%23ffd166'/%3E%3Cpath d='M450 120 l80 620 M430 230 h150 M410 350 h190 M390 500 h230 M370 670 h270' stroke='%23e5e7eb' stroke-width='15' opacity='.75'/%3E%3Cpath d='M0 690 C250 540 450 780 900 550 L900 900 L0 900Z' fill='%23078977' opacity='.65'/%3E%3C/svg%3E")}.p2{background-image:linear-gradient(180deg,transparent,rgba(0,0,0,.35)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 500'%3E%3Crect width='700' height='500' fill='%23f8eddf'/%3E%3Cpath d='M0 360 C180 250 300 300 460 190 C580 105 650 150 700 100 L700 500 L0 500Z' fill='%23078777'/%3E%3Cpath d='M120 265 h300 l-50 60 h-200z' fill='%23b91c1c'/%3E%3Cpath d='M170 325 h200 v100 h-200z' fill='%23fde68a'/%3E%3Cpath d='M270 185 l130 80 h-260z' fill='%237f1d1d'/%3E%3C/svg%3E")}.p3{background-image:linear-gradient(180deg,transparent,rgba(0,0,0,.35)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 500'%3E%3Crect width='700' height='500' fill='%23071326'/%3E%3Cpath d='M0 390 h700 v110 H0z' fill='%23075f56'/%3E%3Cpath d='M80 330 h80 v60 H80zM210 280 h70 v110h-70zM330 240 h90v150h-90zM490 300h80v90h-80z' fill='%23e5e7eb' opacity='.55'/%3E%3Ccircle cx='560' cy='90' r='70' fill='%23f5b642'/%3E%3Cpath d='M60 398 C180 360 300 430 430 390 S640 365 700 385' fill='none' stroke='%23f8fafc' stroke-width='10' opacity='.35'/%3E%3C/svg%3E")}.p4{background-image:linear-gradient(180deg,transparent,rgba(0,0,0,.38)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 500'%3E%3Crect width='700' height='500' fill='%23fff7ed'/%3E%3Cg fill='%23dc2626'%3E%3Ccircle cx='190' cy='180' r='62'/%3E%3Ccircle cx='355' cy='150' r='62'/%3E%3Ccircle cx='520' cy='190' r='62'/%3E%3C/g%3E%3Cg stroke='%237f1d1d' stroke-width='8'%3E%3Cpath d='M190 118 v-40 M355 88 v-40 M520 128 v-40'/%3E%3C/g%3E%3Cpath d='M0 340 C170 250 300 390 700 290 L700 500 L0 500Z' fill='%23f5b642'/%3E%3C/svg%3E")}
+    .split{display:grid; grid-template-columns:1fr 1fr; gap:18px}.panel{padding:25px}.panel h3{font-size:25px; margin:0 0 10px}ul{margin:10px 0 0; padding-left:20px; color:#475569}li{margin:8px 0}.note{padding:20px 24px; border-left:6px solid var(--gold); margin-top:18px; background:rgba(255,247,214,.82); border-radius:20px; color:#70410f}
+    .print{position:fixed; right:18px; bottom:18px; z-index:50; padding:14px 18px; border-radius:999px; border:0; color:white; font-weight:950; background:linear-gradient(135deg,#b91c1c,#f59e0b); box-shadow:0 20px 44px rgba(185,28,28,.34); cursor:pointer}.print:hover{transform:translateY(-3px)}
+    footer{padding:35px 0 55px; color:#475569; text-align:center}
+    @media(max-width:960px){.app-container{flex-direction:column; height:auto; overflow:visible}.sidebar{width:100%; height:auto; overflow:visible; border-right:none; padding:15px; border-bottom:1px solid rgba(255,255,255,.2)}.main-content{height:auto; overflow:visible; padding:15px}.nav{position:fixed; bottom:0; left:0; width:100%; z-index:100; padding:10px; flex-direction:row; background:rgba(255,253,247,.9); backdrop-filter:blur(20px); border-top:1px solid rgba(255,255,255,.6); box-shadow:0 -5px 20px rgba(0,0,0,.05); margin-top:0}.nav-inner{flex-direction:row; overflow-x:auto; padding-bottom:5px; gap:8px; width:100%}.nav a.brand{display:none}.nav a{padding:10px 14px; white-space:nowrap; border-radius:999px; transform:none !important}.hero{padding:20px 10px 10px}.hero-grid,.overview,.split,.gallery{grid-template-columns:1fr}.photo.big{min-height:320px}.timeline{padding-left:15px}.timeline::before{left:15px}.item{grid-template-columns:85px 1fr; gap:12px; padding:20px 0 20px 15px}.item::before{top:24px}.day-head{display:block}.day-head span{display:inline-block; margin-top:10px}h1{letter-spacing:-1.8px; font-size:38px}.postcard{height:230px}body{padding-bottom:70px}}
+    @media print{.app-container{display:block; height:auto; overflow:visible}.sidebar,.main-content{width:100%; height:auto; overflow:visible}.nav,.print,.cloud{display:none}.hero{color:#111; padding:0}.btn{display:none}body:before,body:after{display:none}.reveal{opacity:1;transform:none}.glass,.travel-card{box-shadow:none; border:1px solid #ddd}section{padding:18px 0}.day{break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <div class="plane">✈️</div>
+  <svg class="cloud c1" width="320" height="120" viewBox="0 0 320 120" fill="none"><path d="M28 78 C75 24 116 95 158 48 C200 3 235 61 292 44" stroke="white" stroke-width="16" stroke-linecap="round"/></svg>
+  <svg class="cloud c2" width="360" height="120" viewBox="0 0 360 120" fill="none"><path d="M20 70 C80 18 120 92 175 42 C230 -10 265 65 338 38" stroke="white" stroke-width="16" stroke-linecap="round"/></svg>
+  <svg class="cloud c3" width="280" height="100" viewBox="0 0 280 100" fill="none"><path d="M20 65 C65 20 100 78 145 42 C190 8 215 62 260 45" stroke="white" stroke-width="14" stroke-linecap="round"/></svg>
+
+  <div class="app-container">
+    <aside class="sidebar">
+      <header class="hero" id="top">
+        <div class="hero-grid">
+          <div class="reveal show">
+            <div class="seal"><b>✈️</b> CANHTRIP | Quảng Châu</div>
+            <h1>2 đêm chơi hết chất Quảng Châu</h1>
+            <p class="lead">Lịch đi chơi thiết kế theo giờ nhận/trả phòng khách sạn. Tối ưu thời gian, ưu tiên trải nghiệm văn hóa & ẩm thực.</p>
+            <div class="hero-actions">
+              <a class="btn" href="#day1">Lịch trình</a>
+              <a class="btn ghost" href="#map">Tuyến đi</a>
+            </div>
+          </div>
+          <div class="travel-card reveal show">
+            <div class="postcard"></div>
+            <div class="hotel-info">
+              <h2>Yi Zhi Hotel</h2>
+              <p><b>Địa chỉ:</b> No.236 Tianhe Road, Guangzhou</p>
+              <div class="chips"><span class="chip">Vào 14:00</span><span class="chip">Ra 12:00</span></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <nav class="nav"><div class="nav-inner"><a href="#top" class="brand">🌍 CANHTRIP</a><a href="#overview">🌟 Tổng quan</a><a href="#day1">🗓️ Ngày 1 (21/5)</a><a href="#day2">🗓️ Ngày 2 (22/5)</a><a href="#day3">🗓️ Ngày 3 (23/5)</a><a href="#gallery">📸 Bộ ảnh</a><a href="#tips">💡 Mẹo đi chơi</a></div></nav>
+    </aside>
+
+    <main class="main-content">
+    <section id="overview" class="wrap reveal">
+      <div class="title-row"><h2>Tổng quan chuyến đi</h2><p>Ưu tiên cảnh đêm, văn hóa Quảng Đông, dim sum, phố cổ và tuyến di chuyển không quá lòng vòng.</p></div>
+      <div class="overview">
+        <article class="glass"><div class="icon">🏙️</div><h3>Hiện đại</h3><p>Taikoo Hui, Huacheng Square, Canton Tower và skyline Zhujiang New Town.</p></article>
+        <article class="glass"><div class="icon">🏮</div><h3>Cổ kính</h3><p>Chen Clan Ancestral Hall, Shamian Island, Beijing Road và hương vị phố cổ.</p></article>
+        <article class="glass"><div class="icon">🥟</div><h3>Ẩm thực</h3><p>Dim sum, mì hoành thánh, sữa hai lớp, món Quảng Đông và đồ ăn vặt.</p></article>
+      </div>
+    </section>
+
+    <section class="wrap" id="itinerary">
+      <article class="day glass reveal" id="day1" data-date="2026-05-21">
+        <div class="day-head"><h2>Ngày 1 · Thứ Năm 21/5</h2><span>Nhận phòng + cảnh đêm</span></div>
+        <div class="timeline">
+          <div class="item"><div class="time">11:00–12:00</div><div class="content"><h3>Đến Quảng Châu & Di chuyển</h3><p>Hạ cánh Bạch Vân hoặc đến Ga Tàu, di chuyển về khu Tianhe. Tận hưởng không khí thành phố.</p><div class="tagrow"><span class="tag t-move">Nhập cảnh</span></div></div></div>
+          <div class="item"><div class="time">14:00–15:00</div><div class="content"><h3>Nhận phòng & nghỉ ngắn</h3><p>Check-in khách sạn, sạc điện thoại, lưu địa chỉ tiếng Trung: <b>天河路236号 逸致酒店</b>.</p><div class="tagrow"><span class="tag t-move">Khởi động nhẹ</span></div></div></div>
+          <div class="item"><div class="time">15:30–17:30</div><div class="content"><h3>Dạo Taikoo Hui 太古汇</h3><p>Đi bộ/move ngắn từ khách sạn. Uống cà phê, mua đồ cần thiết, làm quen khu Tianhe.</p><div class="tagrow"><span class="tag t-photo">Chụp ảnh</span><span class="tag">Mua sắm</span></div></div></div>
+          <div class="item"><div class="time">17:30–19:00</div><div class="content"><h3>Ăn tối dim sum hoặc món Quảng Đông</h3><p>Gợi ý: <b>Dian Dou De 点都德</b> hoặc nhà hàng trong Taikoo Hui. Gọi há cảo, xíu mại, bánh cuốn tôm, bánh bao kim sa.</p><div class="tagrow"><span class="tag t-food">Ẩm thực</span><span class="tag t-must">Nên thử</span></div></div></div>
+          <div class="item"><div class="time">19:30–22:00</div><div class="content"><h3>Huacheng Square + ngắm Canton Tower</h3><p>Tuyến đi bộ đẹp: <b>花城广场 → 广州大剧院 → bờ sông → 广州塔 view</b>. Ngày đầu chỉ cần ngắm bên ngoài, không cần lên tháp.</p><div class="tagrow"><span class="tag t-photo">Cảnh đêm</span><span class="tag t-must">Điểm chính</span></div></div></div>
+        </div>
+      </article>
+
+      <article class="day glass reveal" id="day2" data-date="2026-05-22">
+        <div class="day-head"><h2>Ngày 2 · Thứ Sáu 22/5</h2><span>Ngày chơi trọn vẹn nhất</span></div>
+        <div class="timeline">
+          <div class="item"><div class="time">08:00–09:00</div><div class="content"><h3>Ăn sáng dim sum</h3><p>Bắt đầu bằng trà nóng, há cảo, xíu mại, cháo trứng bắc thảo. Ăn vừa đủ để còn đi bộ nhiều.</p><div class="tagrow"><span class="tag t-food">Dim sum</span></div></div></div>
+          <div class="item"><div class="time">09:30–11:30</div><div class="content"><h3>Chen Clan Ancestral Hall 陈家祠</h3><p>Điểm văn hóa đẹp nhất buổi sáng: kiến trúc Lingnan, điêu khắc gỗ, mái ngói và không gian cổ truyền Quảng Đông.</p><div class="tagrow"><span class="tag t-photo">Kiến trúc</span><span class="tag t-must">Không nên bỏ</span></div></div></div>
+          <div class="item"><div class="time">12:00–13:30</div><div class="content"><h3>Ăn trưa khu Liwan / Shamian</h3><p>Gợi ý món: mì hoành thánh, cơm niêu Quảng Đông, vịt quay/heo quay, chè ngọt, sữa hai lớp 双皮奶.</p><div class="tagrow"><span class="tag t-food">Địa phương</span></div></div></div>
+          <div class="item"><div class="time">13:30–15:30</div><div class="content"><h3>Dạo Shamian Island 沙面岛</h3><p>Khu đảo nhỏ có kiến trúc châu Âu, cây xanh, quán cà phê và rất nhiều góc chụp ảnh nhẹ nhàng.</p><div class="tagrow"><span class="tag t-photo">Ảnh đẹp</span><span class="tag t-move">Đi bộ</span></div></div></div>
+          <div class="item"><div class="time">15:30–17:00</div><div class="content"><h3>Beijing Road 北京路</h3><p>Phố đi bộ sôi động, có đồ ăn vặt, mua sắm và di tích đường cổ dưới lớp kính.</p><div class="tagrow"><span class="tag">Phố đi bộ</span><span class="tag t-food">Ăn vặt</span></div></div></div>
+          <div class="item"><div class="time">17:30–19:00</div><div class="content"><h3>Ăn tối</h3><p>Ăn quanh Beijing Road cho tiện hoặc quay về Tianhe nếu muốn nhà hàng đẹp hơn. Nên thử lẩu Quảng Đông, hải sản hấp hoặc vịt quay.</p><div class="tagrow"><span class="tag t-food">Bữa tối</span></div></div></div>
+          <div class="item"><div class="time">19:30–21:00</div><div class="content"><h3>Du thuyền sông Châu Giang 珠江夜游</h3><p>Trải nghiệm cảnh đêm đẹp nhất: skyline, cầu, ánh đèn hai bờ sông và Canton Tower từ mặt nước.</p><div class="tagrow"><span class="tag t-photo">Cảnh đêm</span><span class="tag t-must">Ưu tiên số 1</span></div></div></div>
+          <div class="item"><div class="time">21:00–22:30</div><div class="content"><h3>Canton Tower 广州塔</h3><p>Nếu còn sức thì lên tháp; nếu mệt, chụp ảnh bên ngoài là đủ đẹp. Về khách sạn khoảng 22:30–23:00.</p><div class="tagrow"><span class="tag t-photo">View thành phố</span></div></div></div>
+        </div>
+      </article>
+
+      <article class="day glass reveal" id="day3" data-date="2026-05-23">
+        <div class="day-head"><h2>Ngày 3 · Thứ Bảy 23/5</h2><span>Ăn sáng + mua quà + trả phòng</span></div>
+        <div class="timeline">
+          <div class="item"><div class="time">07:30–08:30</div><div class="content"><h3>Thu dọn hành lý</h3><p>Kiểm tra hộ chiếu, sạc, ví, đồ trong két, hóa đơn khách sạn. Đóng gói trước rồi đi ăn sáng.</p><div class="tagrow"><span class="tag t-move">Chuẩn bị</span></div></div></div>
+          <div class="item"><div class="time">08:30–10:00</div><div class="content"><h3>Ăn sáng/brunch gần khách sạn</h3><p>Chọn Dian Dou De hoặc quán cháo/mì hoành thánh gần Tianhe. Đây là bữa dim sum cuối trước khi rời Quảng Châu.</p><div class="tagrow"><span class="tag t-food">Brunch</span></div></div></div>
+          <div class="item"><div class="time">10:00–11:00</div><div class="content"><h3>Mua quà nhanh ở Taikoo Hui / Grandview Mall</h3><p>Quà gợi ý: trà Trung Quốc, bánh kẹo đóng hộp, đồ ăn vặt nội địa, mỹ phẩm hoặc đồ lifestyle.</p><div class="tagrow"><span class="tag">Mua quà</span></div></div></div>
+          <div class="item"><div class="time">11:00–12:00</div><div class="content"><h3>Về khách sạn & trả phòng</h3><p>Về lấy hành lý, kiểm tra phòng lần cuối và trả phòng trước 12:00. Nếu chuyến đi muộn, gửi hành lý tại lễ tân.</p><div class="tagrow"><span class="tag t-move">Checkout</span></div></div></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="gallery" class="wrap reveal">
+      <div class="title-row"><h2>Không khí Trung Hoa trong lịch trình</h2><p>Ảnh minh họa nền: núi, đèn lồng, tháp Canton, phố cổ và sông Châu Giang để file nhìn như travel magazine.</p></div>
+      <div class="gallery">
+        <div class="photo big p1" data-title="Canton Tower về đêm"></div>
+        <div class="photo p2" data-title="Kiến trúc Lingnan"></div>
+        <div class="photo p3" data-title="Sông Châu Giang"></div>
+        <div class="photo p4" data-title="Đèn lồng Trung Hoa"></div>
+        <div class="photo p2" data-title="Phố cổ Quảng Châu"></div>
+      </div>
+    </section>
+
+    <section id="map" class="wrap reveal">
+      <div class="split">
+        <div class="panel glass"><h3>Tuyến đi ngày 2 gọn nhất</h3><ul><li>Khách sạn → Chen Clan Ancestral Hall</li><li>Chen Clan → Shamian Island</li><li>Shamian → Beijing Road</li><li>Beijing Road → bến du thuyền Pearl River</li><li>Canton Tower/Zhujiang New Town → khách sạn</li></ul></div>
+        <div class="panel glass"><h3>Ưu tiên nếu bị mệt</h3><ul><li>Giữ: Chen Clan, Shamian, du thuyền Pearl River.</li><li>Có thể bỏ: lên bên trong Canton Tower.</li><li>Beijing Road có thể rút xuống 60–75 phút.</li><li>Ngày cuối không đi xa để tránh trễ checkout.</li></ul></div>
+      </div>
+      <div class="note">Mẹo: dùng Amap 高德地图 hoặc Baidu Maps 百度地图. Khi gọi xe, copy tên điểm đến bằng tiếng Trung trong lịch trình để tài xế dễ nhận.</div>
+    </section>
+
+    <section id="tips" class="wrap reveal">
+      <div class="title-row"><h2>Mẹo nhỏ để chuyến đi mượt hơn</h2><p>Chuẩn bị trước thanh toán, bản đồ và tên tiếng Trung sẽ giúp bạn tiết kiệm nhiều thời gian.</p></div>
+      <div class="overview">
+        <article class="glass"><div class="icon">📱</div><h3>App cần có</h3><p>Amap/Baidu Maps, Alipay, WeChat, app dịch và eSIM/roaming.</p></article>
+        <article class="glass"><div class="icon">💳</div><h3>Thanh toán</h3><p>Nên liên kết thẻ vào Alipay/WeChat Pay trước khi đi, vẫn mang thêm tiền mặt dự phòng.</p></article>
+        <article class="glass"><div class="icon">🚕</div><h3>Di chuyển</h3><p>Taxi/app xe phù hợp buổi tối; ban ngày có thể metro để tránh kẹt xe.</p></article>
+      </div>
+    </section>
+  </main>
+
+      <footer class="wrap">Lịch trình cá nhân hóa theo khách sạn Yi Zhi Hotel · Guangzhou 2026</footer>
+    </main>
+  </div>
+
+  <button class="print" onclick="window.print()">In / lưu PDF</button>
+  <script>
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); observer.unobserve(e.target); } })
+    },{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+    
+    const scrollContainer = window.innerWidth > 960 ? document.querySelector('.main-content') : window;
+    scrollContainer.addEventListener('scroll',()=>{
+      const y = scrollContainer === window ? window.scrollY : scrollContainer.scrollTop; 
+      document.body.style.setProperty('--scroll', y);
+      document.querySelectorAll('.cloud').forEach((c,i)=> c.style.transform = `translateX(${y*(0.03+i*0.01)}px)`);
+    },{passive:true});
+
+    function checkItinerary() {
+      const now = new Date();
+      document.querySelectorAll('.day').forEach(dayEl => {
+        const dateStr = dayEl.getAttribute('data-date');
+        if (!dateStr) return;
+        const dayDate = new Date(dateStr);
+        const isToday = now.getFullYear() === dayDate.getFullYear() && now.getMonth() === dayDate.getMonth() && now.getDate() === dayDate.getDate();
+        const isPastDay = new Date(now.toDateString()) > new Date(dayDate.toDateString());
+        
+        dayEl.querySelectorAll('.item').forEach(itemEl => {
+          const timeText = itemEl.querySelector('.time').innerText;
+          const [startStr, endStr] = timeText.split('–').map(s=>s.trim());
+          
+          if (isPastDay) {
+            itemEl.classList.add('past');
+            return;
+          }
+          if (isToday && startStr && endStr) {
+            const startTime = new Date(`${dateStr}T${startStr}:00`);
+            const endTime = new Date(`${dateStr}T${endStr}:00`);
+            if (now >= startTime && now <= endTime) {
+              itemEl.classList.add('active');
+            } else if (now > endTime) {
+              itemEl.classList.add('past');
+            }
+          }
+        });
+      });
+    }
+    checkItinerary();
+    setInterval(checkItinerary, 60000);
+  </script>
+</body>
+</html>
